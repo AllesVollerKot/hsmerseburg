@@ -1,0 +1,39 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:enabled="true"
+        android:key="@string/preference_showNews"
+        android:selectable="true"
+        android:summary="@string/preferenceActivity_title_news"
+        android:title="@string/preferenceActivity_title_news" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:enabled="true"
+        android:key="@string/preference_showEvents"
+        android:selectable="true"
+        android:summary="@string/preferenceActivity_title_events"
+        android:title="@string/preferenceActivity_title_events" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:enabled="true"
+        android:key="@string/preference_showWiWi"
+        android:selectable="true"
+        android:summary="@string/preferenceActivity_title_wiwi"
+        android:title="@string/preferenceActivity_title_wiwi" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:enabled="true"
+        android:key="@string/preference_showIKS"
+        android:selectable="true"
+        android:summary="@string/preferenceActivity_title_iks"
+        android:title="@string/preferenceActivity_title_iks" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:enabled="true"
+        android:key="@string/preference_showSMK"
+        android:selectable="true"
+        android:summary="@string/preferenceActivity_title_smk"
+        android:title="@string/preferenceActivity_title_smk" />
+
+</PreferenceScreen>

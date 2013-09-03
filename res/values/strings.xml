@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">HSMerseburg</string>
+
+    <string-array name="janein">
+        <item>ja</item>
+        <item>nein</item>
+    </string-array>
+    <string-array name="updateinterval">
+        <item>1</item>
+        <item>5</item>
+        <item>15</item>
+        <item>60</item>
+        <item>Nie</item>
+    </string-array>
+    <string-array name="drawer_items">
+        <item>News</item>
+        <item>Events</item>
+        <item>WiWi</item>
+        <item>SMK</item>
+        <item>IKS</item>
+    </string-array>
+
+    <string name="options_options">Optionen</string>
+    <string name="options_reload_title">reload</string>
+    <string name="options_send_title">weiterleiten</string>
+    <string name="options_about_title">about</string>
+    <string name="activity_mainactivity_overlay_text">Vom linken Rand nach rechts wischen oder auf das Home Icon tippen zum Navigieren</string>
+    <string name="activity_mainactivity_overlay_button">verstanden</string>
+    <string name="fragment_newsanzeige">fragmen_newsanzeige</string>
+    <string name="fragment_newslist">fragmen_newslist</string>
+    <string name="fragment_eventanzeige">fragmen_eventanzeige</string>
+    <string name="fragment_wiwianzeige">fragmen_wiwi</string>
+    <string name="fragment_iksanzeige">fragmen_iks</string>
+    <string name="fragment_smkanzeige">fragmen_smk</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="log_tag">Meldung</string>
+    <string name="webview_header">&lt;?xml version=\"1.0\" encoding=\"UTF-8\" ?&gt;</string>
+    <string name="webview_error">public static final String htmlFehler = &lt;html&gt;&lt;body&gt;&lt;h1&gt;&lt;strong>Download fehlgeschlagen. Keine Internetverbindung?&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string name="preferenceActivity_title_news">News Benachrichtigungen</string>
+    <string name="preferenceActivity_summary_news">News Benachrichtigungen anzeigen?</string>
+    <string name="preferenceActivity_title_events">Events Benachrichtigungen</string>
+    <string name="preferenceActivity_summary_events">Events Benachrichtigungen anzeigen?</string>
+    <string name="preferenceActivity_title_wiwi">WiWi Benachrichtigungen</string>
+    <string name="preferenceActivity_summary_wiwi">WiWi Benachrichtigungen anzeigen?</string>
+    <string name="preferenceActivity_title_iks">IKS Benachrichtigungen</string>
+    <string name="preferenceActivity_summary_iks">IKS Benachrichtigungen anzeigen?</string>
+    <string name="preferenceActivity_title_smk">SMK Benachrichtigungen</string>
+    <string name="preferenceActivity_summary_smk">SMK Benachrichtigungen anzeigen?</string>
+    <string name="preference_firstStart">firststart</string>
+    <string name="preference_updateinterval">updateinterval</string>
+    <string name="preference_firstWIWISearch">firstWIWISearch</string>
+    <string name="preference_firstNewsSearch">firstNewsSearch</string>
+    <string name="preference_firstEventSearch">firstEventSearch</string>
+    <string name="preference_firstSMKSearch">firstSMKSearch</string>
+    <string name="preference_firstIKSSearch">firstIKSSearch</string>
+     <string name="preference_showNews">showNews</string>
+    <string name="preference_showEvents">showEvents</string>
+    <string name="preference_showWiWi">showWiWi</string>
+    <string name="preference_showIKS">showIKS</string>
+    <string name="preference_showSMK">showSMK</string>
+
+</resources>

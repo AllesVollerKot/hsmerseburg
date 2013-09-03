@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_overlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/showcase_background" >
+
+    <ImageView
+        android:id="@+id/imageViewPfeilHome"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/overlay_arrow_home" />
+
+    <ImageView
+        android:id="@+id/imageViewPfeilDrawer"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageViewPfeilHome"
+        android:src="@drawable/overlay_arrow" />
+
+    <datenUndHelfer.TextView_TextFitTextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/overlay_button"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageViewPfeilDrawer"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/activity_mainactivity_overlay_text"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/overlay_button"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/activity_mainactivity_overlay_button" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:defaultValue="15"
+        android:entries="@array/updateinterval"
+        android:entryValues="@array/updateinterval"
+        android:key="updateinterval"
+        android:summary="Häufigkeit der Suche nach Updates in Minuten"
+        android:title="Updateinterval in Minuten" />
+
+</PreferenceScreen>

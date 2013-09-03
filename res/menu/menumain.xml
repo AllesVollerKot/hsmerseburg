@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/optionen_optionen"
+        android:enabled="true"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/options_options"
+        android:visible="true">
+    </item>
+    <item
+        android:id="@+id/optionen_load"
+        android:enabled="true"
+        android:icon="@drawable/navigationrefresh"
+        android:orderInCategory="200"
+        android:showAsAction="ifRoom"
+        android:title="@string/options_reload_title"
+        android:visible="true">
+    </item>
+    <item
+        android:id="@+id/optionen_send_as_message"
+        android:enabled="true"
+        android:icon="@drawable/icon_email"
+        android:orderInCategory="300"
+        android:showAsAction="always"
+        android:title="@string/options_send_title"
+        android:visible="false">
+    </item>
+    <item
+        android:id="@+id/optionen_about"
+        android:enabled="true"
+        android:orderInCategory="400"
+        android:showAsAction="never"
+        android:title="@string/options_about_title"
+        android:visible="true">
+    </item>
+
+</menu>
